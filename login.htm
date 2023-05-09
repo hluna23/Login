@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login and registre</title>
+  <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+  <main>
+    <div class="contenedor__todo">
+      <div class="caja__trasera">
+        <div class="caja_trasera-login">
+          <h3>Ya tienes cuenta?</h3>
+          <p> Iniciar sesión para entrar en la pagina</p>
+          <button id="btn_iniciar_sesion">Iniciar Sesión</button>
+        </div>
+        <div class="caja_trasera-register">
+          <h3>Aun no tienes una cuenta?</h3>
+          <p>Registrate para que puedas Iniciar Sesión</p>
+          <button id="btn_registrate">registrate</button>
+        </div>
+      </div>
+      <!--formulario de login y registro-->
+      <div class="contenedor_login-register">
+        <!--login-->
+        <form action=" " class="formulario_login">
+          <h2>Iniciar Sesión</h2>
+          <input type="text" placeholder="Correo Electronico">
+          <input type="password" placeholder="contrasena">
+          <button>Entrar</button>
+        </form>
+        <!--registro-->
+        <form action=" " class="formulario_register">
+          <h2>Registrarse</h2>
+          <input type="text" placeholder="Nombre Completo">
+          <input type="text" placeholder="Correo Electronico">
+          <input type="text" placeholder="Usuario">
+          <input type="password" placeholder="contrasena">
+          <button>Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </main>
+ 
+  <script src="login.js"></script>
+</body>
+</html>
